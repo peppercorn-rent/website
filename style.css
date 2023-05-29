@@ -1,0 +1,80 @@
+/* #F7EBEB
+#243680
+#F6CECA */
+
+/* Global View aka Desktop View */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7EBEB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 140px;
+}
+
+.header-container {
+    min-height: 100px;
+    position: fixed;
+    width: 100%;
+    font-weight: 500;
+}
+
+header {
+    max-width: 85%;
+    /* background-color: blueviolet; */
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mybutton {
+    padding: 10px 25px;
+    margin-left: 20px;
+    color: #243680
+}
+
+.herobox {
+    background-color: #F6CECA;
+    max-height: 650px;
+}
+
+.heropic img{
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+
+.herotitle {
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 300px;
+    color: #243680;
+}
+
+.herotitle h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    padding-top: 35px;
+    max-width: 420px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
