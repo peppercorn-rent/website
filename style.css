@@ -23,10 +23,14 @@ a {
     padding-top: 140px;
 } */
 
+.colorchange {
 
+    position: absolute;
+    margin-top: 100px;
+
+}
 
 .header-container {
-    min-height: 100px;
     position: fixed;
     width: 100%;
     font-weight: 500;
