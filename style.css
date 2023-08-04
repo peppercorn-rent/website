@@ -1,120 +1,124 @@
-/* #F7EBEB
-#243680
-#F6CECA */
-
-/* Global View aka Desktop View */
-
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #F7EBEB;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* .container {
-    min-height: 500px;
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 140px;
-} */
-
-.colorchange {
-
-    position: absolute;
-    margin-top: 100px;
-
-}
-
-.header-container {
-    position: fixed;
-    width: 100%;
-    font-weight: 500;
-    font-size: 1rem;
-    z-index: 100;
-}
-
-header {
-    max-width: 100%;
-    padding: 0px 120px;
-    /* background-color: blueviolet; */
-    min-height: 100px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.mybutton {
-    padding: 10px 25px;
-    margin-left: 20px;
-    color: #243680
-}
-
-.herobox {
-    background-color: #F6CECA;
-    max-height: 650px;
-}
-
-.heropic img{
-    /* display: block; */
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+  /* background-color: #f7e5e8; */
+  background-color: #F7EBEB;
+  font-family: 'Poppins', sans-serif;
 }
 
 
-.herotitle {
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 300px;
-    color: #243680;
+.navbar {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar-brand img {
+  padding-top: 10px;
+  height: 40px;
+}
+.navbar-nav .nav-link {
+  color: #243680;
 }
 
-.herotitle h1 {
-    font-size: 3.8rem;
-    font-weight: 700;
+.nav-item {
+  margin: 0 5px;
 }
 
-.subtitle {
-    padding-top: 35px;
-    max-width: 420px;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.4rem;
+.hero-box {
+  /* height: 95vh; */
+  background: url('images/hero-box-center-background.png') no-repeat center center;
+  background-size: cover;
+  color: #243680;
+  padding: 280px 0 300px 0;
 }
 
-.actionbutton {
-    width: 100px;
-    text-align: center;
-    margin-top: 40px;
-    padding: 15px 45px;
-    background-color: #f24444;
-    border-style: solid #ED5434;
-    border-width: 1px;
-    border-radius: 0.8rem;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.22);
-    display: inline-block;
-    color: #F7EBEB;
-    font-weight: 500;
+.hero-box h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+.hero-box p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.content-box {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 25px 0 20px 0;
+  border-width: 4px;
+  border-color: #F6CDCA;
+  border-style: solid;
+  border-radius: 0.8rem;
+  color: #243680;
+  /* margin: 0px 0 30px 0; */
 
 }
 
+.container-info {
 
-.actionbutton:hover {
-    background-color: #1d5359;
-    transition-duration: 0.5s;
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
-.logo {
-    max-width: 180px;
+
+.btn {
+  margin-top: 30px;
+  outline: none !important;
+  background-color: #f24444;
+  border-style: solid #ED5434;
+  color:#ffffff;
+
+  border-width: 1px;
+  border-radius: 0.8rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.22);
 }
 
-nav.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  }
+.btn:hover {
+  background-color: #1d5359;
+  color:#ffffff;
+  transition-duration: 0.3s;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-blue {
+  background-color: #243680;
+  margin-top: -16px;
+  margin-left: 5px;
+  padding: 3px 15px;
+}
+
+.content-features {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 25px 0 20px 0;
+  border-width: 4px;
+  border-color: #F6CDCA;
+  border-style: solid;
+  border-radius: 0.8rem;
+  color: #243680;
+  /* margin: 0px 0 30px 0; */
+  padding: 180px;
+
+}
+
+.smaller {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.container-info {
+  width: 85%;
+}
+
+.footer {
+  background-color: #F5CDCA;
+  padding: 45px 0 30px 0;
+  margin-top: -30px;
+}
