@@ -155,7 +155,7 @@
       var formData = new FormData();
       formData.append('file', document.getElementById('fileInput').files[0]);
   
-      fetch('https://your-flask-app-url/api/upload', {
+      fetch('http://peppercorn-dev.eu-central-1.elasticbeanstalk.com/api/upload', {
           method: 'POST',
           body: formData
       })
